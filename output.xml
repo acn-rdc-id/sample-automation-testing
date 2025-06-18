@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-28T15:05:49.180047" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot">
+<test id="s1-t1" name="Verify Login Page Loads" line="14">
+<kw name="Title Should Be Login - Example Staging">
+<msg time="2025-05-28T15:05:49.251891" level="FAIL">No keyword with name 'Title Should Be Login - Example Staging' found.</msg>
+<status status="FAIL" start="2025-05-28T15:05:49.251375" elapsed="0.000613">No keyword with name 'Title Should Be Login - Example Staging' found.</status>
+</kw>
+<status status="FAIL" start="2025-05-28T15:05:49.248932" elapsed="0.003518">No keyword with name 'Title Should Be Login - Example Staging' found.</status>
+</test>
+<status status="FAIL" start="2025-05-28T15:05:49.182463" elapsed="0.071155"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test" id="s1" pass="0" fail="1" skip="0">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-28T15:05:49.162976" level="ERROR">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 2: Non-existing setting 'Library SeleniumLibrary'.</msg>
+<msg time="2025-05-28T15:05:49.163365" level="ERROR">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 3: Non-existing setting 'Suite Setup Open Browser To Login Page'.</msg>
+<msg time="2025-05-28T15:05:49.163692" level="ERROR">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 4: Non-existing setting 'Suite Teardown Close Browser'.</msg>
+<msg time="2025-05-28T15:05:49.163904" level="WARN">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 6: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+<msg time="2025-05-28T15:05:49.164379" level="WARN">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 13: Singular section headers like '*** Test Case ***' are deprecated. Use plural format like '*** Test Cases ***' instead.</msg>
+<msg time="2025-05-28T15:05:49.182659" level="ERROR">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 7: Setting variable '${BROWSER} chrome' failed: Invalid variable name '${BROWSER} chrome'.</msg>
+<msg time="2025-05-28T15:05:49.183033" level="ERROR">Error in file 'C:\Users\m.b.abdul.aziz\IdeaProjects\RobotTesting\test\login_test.robot' on line 8: Setting variable '${URL} https://allianz-stg.hackydoodle.com/login' failed: Invalid variable name '${URL} https://allianz-stg.hackydoodle.com/login'.</msg>
+</errors>
+</robot>
